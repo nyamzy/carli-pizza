@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.welcome {
+  background-image: url("../images/back1.jpg");
+  padding: 200px;
+}
