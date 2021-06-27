@@ -1,14 +1,18 @@
 h1 {
   text-align: center;
-  color: white;
+  color: turquoise;
 }
 
 h2 {
   text-align: center;
-  color: white;
+  color: turquoise;
 }
 
 .welcome {
-  background-image: url("../images/back1.jpg");
-  padding: 200px;
+  background-image: url("../images/back5.jpg");
+  padding: 420px;
 }
+ .special {
+   padding: 100;
+   text-align: center;
+ }
