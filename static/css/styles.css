@@ -12,7 +12,26 @@ h2 {
   background-image: url("../images/back5.jpg");
   padding: 420px;
 }
+
  .special {
    padding: 100;
+   text-align: center;
+ }
+
+ .order {
+   background-image: url("../images/order.jpg");
+   padding: 200;
+   color: turquoise;
+ }
+
+ #size {
+   text-align: center;
+ }
+
+ #crust {
+   text-align: center;
+ }
+
+ #toppings {
    text-align: center;
  }
