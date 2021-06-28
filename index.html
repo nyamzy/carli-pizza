@@ -28,11 +28,11 @@
         <div class="col-lg-4">
           <h2>Size</h2>
           <form id="size">
-            <input type="radio" id="small">
+            <input type="radio" name="size" id="small">
             <label for="small">Small</label><br><br>
-            <input type="radio" id="medium">
+            <input type="radio" name="size" id="medium">
             <label for="medium">Medium</label><br><br>
-            <input type="radio" id="large">
+            <input type="radio" name="size" id="large">
             <label for="large">Large</label><br><br>
           </form>
         </div>
@@ -40,11 +40,11 @@
         <div class="col-lg-4">
           <h2>Crust</h2>
           <form id="crust">
-            <input type="radio" id="crispy">
+            <input type="radio" name="crust" id="crispy">
             <label for="crispy">Crispy</label><br><br>
-            <input type="radio" id="stuffed">
+            <input type="radio" name="crust" id="stuffed">
             <label for="stuffed">Stuffed</label><br><br>
-            <input type="radio" id="glutten">
+            <input type="radio" name="crust" id="glutten">
             <label for="glutten">Glutten free</label><br><br>
           </form>
         </div>
@@ -52,13 +52,13 @@
         <div class="col-lg-4">
           <h2>Toppings</h2>
           <form id="toppings">
-            <input type="checkbox" id="bcn">
+            <input type="checkbox" name="toppings" id="bcn">
             <label for="bcn">Bacon</label><br><br>
-            <input type="checkbox" id="p-apple">
+            <input type="checkbox" name="toppings" id="p-apple">
             <label for="p-apple">Pineapple</label><br><br>
-            <input type="checkbox" id="ham">
+            <input type="checkbox" name="toppings" id="ham">
             <label for="ham">Ham</label><br><br>
-            <input type="checkbox" id="mushrooms">
+            <input type="checkbox" name="toppings" id="mushrooms">
             <label for="mushrooms">Mushrooms</label><br><br>
           </form>
         </div>
@@ -77,9 +77,18 @@
     <form id="delivery">
       <h2>Do you need your pizza delivered?</h2>
       <div class="form-group">
-        <span class="btn btn-primary" id="deliver">Deliver</span>
+        <span class="btn btn-primary" id="deliver">Deliver</span><br><br><br>
+
+        <h2>Do you want to submit your order?</h2>
+        <button type="button" class="btn btn-primary">Make order</button>
       </div>
     </form>
+
+    <div class="total">
+
+      <h2></h2>
+
+    </div>
 
   </body>
 </html>
