@@ -44,4 +44,11 @@ h2 {
    padding: 100;
  }
 
- 
+ #delivery {
+   background-image: url("../images/wooden.jpg");
+   text-align: center;
+   display: grid;
+   grid-template-columns: auto;
+   justify-content: center;
+   padding: 100;
+ }
