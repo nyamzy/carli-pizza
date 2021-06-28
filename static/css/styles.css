@@ -35,3 +35,13 @@ h2 {
  #toppings {
    text-align: center;
  }
+
+ #quantity {
+   text-align: center;
+   display: grid;
+   grid-template-columns: auto;
+   justify-content: center;
+   padding: 100;
+ }
+
+ 
